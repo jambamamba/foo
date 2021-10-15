@@ -65,6 +65,7 @@ set(CMAKE_MODULE_PATH
 )
 
 SET(CMAKE_MODULE_PATH "$CMAKE_MODULE_PATH;$ENV{CMAKE_MODULE_PATH}")
+message("################3 ${CMAKE_MODULE_PATH} ")
 
 # include modules
 
