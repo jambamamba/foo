@@ -1,3 +1,0 @@
-/home/oosman/nextgen/local_sources/rpmsg_lite_str_echo_rtos/armgcc/build/CMakeFiles/rebuild_cache.dir
-/home/oosman/nextgen/local_sources/rpmsg_lite_str_echo_rtos/armgcc/build/CMakeFiles/edit_cache.dir
-/home/oosman/nextgen/local_sources/rpmsg_lite_str_echo_rtos/armgcc/build/CMakeFiles/rpmsg_lite_str_echo_rtos_imxcm4.elf.dir
