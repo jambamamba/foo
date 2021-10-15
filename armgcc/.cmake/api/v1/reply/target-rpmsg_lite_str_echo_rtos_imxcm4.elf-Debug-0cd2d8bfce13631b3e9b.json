@@ -1,0 +1,219 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Debug/rpmsg_lite_str_echo_rtos_imxcm4.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "     -DDEBUG     -DCPU_MIMX8MM6DVTLZ     -DFSL_RTOS_FREE_RTOS     -DSERIAL_PORT_TYPE_UART=1     -g     -O0     -mcpu=cortex-m4     -Wall     -Wno-address-of-packed-member     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb     -MMD     -MP     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mapcs     -std=gnu99   "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/armgcc/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/armgcc/debug"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				5,
+				8,
+				10
+			]
+		}
+	],
+	"id" : "rpmsg_lite_str_echo_rtos_imxcm4.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DDEBUG     -DCPU_MIMX8MM6DVTLZ     -DFSL_RTOS_FREE_RTOS     -DSERIAL_PORT_TYPE_UART=1     -g     -O0     -mcpu=cortex-m4     -Wall     -Wno-address-of-packed-member     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb     -MMD     -MP     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mapcs     -std=gnu99",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-g     -mcpu=cortex-m4     -Wall     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     --specs=nano.specs     --specs=nosys.specs     -fno-common     -ffunction-sections     -fdata-sections     -ffreestanding     -fno-builtin     -mthumb     -mapcs     -Xlinker     --gc-sections     -Xlinker     -static     -Xlinker     -z     -Xlinker     muldefs     -Xlinker     -Map=output.map     -Xlinker     --defsym=__stack_size__=0x400     -Xlinker     --defsym=__heap_size__=0x400     -T/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/armgcc/MIMX8MM6xxxxx_cm4_ram.ld -static",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--start-group",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lc",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgcc",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lnosys",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,--end-group",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "rpmsg_lite_str_echo_rtos_imxcm4.elf",
+	"nameOnDisk" : "rpmsg_lite_str_echo_rtos_imxcm4.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				5,
+				8,
+				10
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				4,
+				6,
+				7,
+				9,
+				11,
+				12
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/main_remote.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/FreeRTOSConfig.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/pin_mux.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/pin_mux.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/rpmsg_config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/rsc_table.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/rsc_table.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/remoteproc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/board.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/board.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/clock_config.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/clock_config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/fsl_iomuxc.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

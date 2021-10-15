@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rpmsg_lite_str_echo_rtos_imxcm4",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rpmsg_lite_str_echo_rtos_imxcm4.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rpmsg_lite_str_echo_rtos_imxcm4.elf-Debug-0cd2d8bfce13631b3e9b.json",
+					"name" : "rpmsg_lite_str_echo_rtos_imxcm4.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/armgcc",
+		"source" : "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/boards/dart_mx8mm/multicore_examples/rpmsg_lite_str_echo_rtos/armgcc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

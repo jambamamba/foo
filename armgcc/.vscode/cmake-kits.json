@@ -1,0 +1,13 @@
+[
+  {
+    "name": "FreeRTOS GCC",
+    "compilers": {
+      "C": "/home/oosman/repos/nextgen/build_wayland/./tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc",
+      "CXX": "/home/oosman/repos/nextgen/build_wayland/./tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-g++"
+    },
+    "toolchainFile": "/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/tools/cmake_toolchain_files/armgcc.cmake",
+    "environmentVariables": {
+      "ARMGCC_DIR": "/home/oosman/repos/nextgen/build_wayland/./tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/gcc-arm-none-eabi-9-2020-q2-update/"
+    }
+  }
+]

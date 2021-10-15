@@ -1,0 +1,24 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/oosman/repos/nextgen/local_sources/rpmsg_lite_str_echo_rtos/../../build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/gcc-arm-none-eabi-9-2020-q2-update//bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/oosman/repos/nextgen/local_sources/rpmsg_lite_str_echo_rtos/../../build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/gcc-arm-none-eabi-9-2020-q2-update//bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
