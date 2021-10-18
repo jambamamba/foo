@@ -79,6 +79,7 @@ set(CMAKE_MODULE_PATH
 #    ${ProjDirPath}/../../../../../components/lists
 #    ${ProjDirPath}/../../../../../CMSIS/Include
     ${ProjDirPath}/../../../../../imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/devices/MIMX8MM6
+    /home/oosman/repos/nextgen/build_wayland/tmp/work/aarch64-fslc-linux/foo/1.0-r0/git/armgcc/../../../../../imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/middleware/multicore
     ${ProjDirPath}/../../../../../imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/middleware/multicore
     ${ProjDirPath}/../../../../../imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/devices/MIMX8MM6/utilities
     ${ProjDirPath}/../../../../../imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/CMSIS/Include
