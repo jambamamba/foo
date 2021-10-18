@@ -1,6 +1,7 @@
 #ARMGCC_DIR=/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/gcc-arm-none-eabi-9-2020-q2-update/ cmake -DCMAKE_TOOLCHAIN_FILE=/home/oosman/repos/nextgen/build_wayland/tmp/work/imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/tools/cmake_toolchain_files/armgcc.cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" .
 
-message("################ CMAKE_TOOLCHAIN_FILE ${CMAKE_TOOLCHAIN_FILE} ###################")
+set(CMAKE_TOOLCHAIN_FILE ${CMAKE_TOOLCHAIN_FILE})
+
 # CROSS COMPILER SETTING
 SET(CMAKE_SYSTEM_NAME Generic)
 CMAKE_MINIMUM_REQUIRED (VERSION 3.1.1)
@@ -86,10 +87,10 @@ set(CMAKE_MODULE_PATH
     ${ProjDirPath}/../../../../../imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/components/serial_manager/
     ${ProjDirPath}/../../../../../imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/components/lists/
     ${ProjDirPath}/../../../../../imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/components/uart/
-    )
-message("################ CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ###################")
-set(CMAKE_TOOLCHAIN_FILE ${CMAKE_TOOLCHAIN_FILE})
+    )ProjDirPath
 message("################ CMAKE_TOOLCHAIN_FILE ${CMAKE_TOOLCHAIN_FILE} ###################")
+message("################ ProjDirPath ${ProjDirPath} ###################")
+message("################ CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ###################")
 
 SET(CMAKE_MODULE_PATH "$CMAKE_MODULE_PATH;$ENV{CMAKE_MODULE_PATH}")
 
