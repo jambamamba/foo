@@ -91,8 +91,7 @@ message("################ CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ###############
 set(CMAKE_TOOLCHAIN_FILE ${CMAKE_TOOLCHAIN_FILE})
 message("################ CMAKE_TOOLCHAIN_FILE ${CMAKE_TOOLCHAIN_FILE} ###################")
 
-#ProjDirPath: /home/oosman/repos/nextgen/build_wayland/tmp/work/aarch64-fslc-linux/foo/1.0-r0/git/armgcc
-#SET(CMAKE_MODULE_PATH "$CMAKE_MODULE_PATH;$ENV{CMAKE_MODULE_PATH}")
+SET(CMAKE_MODULE_PATH "$CMAKE_MODULE_PATH;$ENV{CMAKE_MODULE_PATH}")
 
 # include modules
 
