@@ -69,15 +69,15 @@ target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE
 )
 
 set(CMAKE_MODULE_PATH
-    ${ProjDirPath}/../../../../../middleware/multicore
-    ${ProjDirPath}/../../../../../rtos/freertos
-    ${ProjDirPath}/../../../../../devices/MIMX8MM6/drivers
-    ${ProjDirPath}/../../../../../devices/MIMX8MM6
-    ${ProjDirPath}/../../../../../devices/MIMX8MM6/utilities
-    ${ProjDirPath}/../../../../../components/uart
-    ${ProjDirPath}/../../../../../components/serial_manager
-    ${ProjDirPath}/../../../../../components/lists
-    ${ProjDirPath}/../../../../../CMSIS/Include
+#    ${ProjDirPath}/../../../../../middleware/multicore
+#    ${ProjDirPath}/../../../../../rtos/freertos
+#    ${ProjDirPath}/../../../../../devices/MIMX8MM6/drivers
+#    ${ProjDirPath}/../../../../../devices/MIMX8MM6
+#    ${ProjDirPath}/../../../../../devices/MIMX8MM6/utilities
+#    ${ProjDirPath}/../../../../../components/uart
+#    ${ProjDirPath}/../../../../../components/serial_manager
+#    ${ProjDirPath}/../../../../../components/lists
+#    ${ProjDirPath}/../../../../../CMSIS/Include
     ${ProjDirPath}/../../../../../imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/devices/MIMX8MM6
     ${ProjDirPath}/../../../../../imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/middleware/multicore
     ${ProjDirPath}/../../../../../imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/devices/MIMX8MM6/utilities
