@@ -83,7 +83,7 @@ message("################ CMAKE_TOOLCHAIN_FILE ${CMAKE_TOOLCHAIN_FILE} #########
 message("################ ProjDirPath ${ProjDirPath} ###################")
 message("################ CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ###################")
 
-SET(CMAKE_MODULE_PATH "$CMAKE_MODULE_PATH;$ENV{CMAKE_MODULE_PATH}")
+#SET(CMAKE_MODULE_PATH "$CMAKE_MODULE_PATH;$ENV{CMAKE_MODULE_PATH}")
 
 # include modules
 
