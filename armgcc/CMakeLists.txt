@@ -87,7 +87,7 @@ set(CMAKE_MODULE_PATH
     ${ProjDirPath}/../../../../../imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/components/serial_manager/
     ${ProjDirPath}/../../../../../imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/components/lists/
     ${ProjDirPath}/../../../../../imx8mm_var_dart-fslc-linux/freertos-variscite/2.9.x-r0/git/components/uart/
-    )ProjDirPath
+    )
 message("################ CMAKE_TOOLCHAIN_FILE ${CMAKE_TOOLCHAIN_FILE} ###################")
 message("################ ProjDirPath ${ProjDirPath} ###################")
 message("################ CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ###################")
